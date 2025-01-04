@@ -23,7 +23,7 @@ const Footer = () => {
             <a
               href="#"
               title=""
-              className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-yellow-400 focus:bg-yellow-400"
+              className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-yellow-500 focus:bg-yellow-500"
             >
               <svg
                 className="w-4 h-4"
@@ -39,7 +39,7 @@ const Footer = () => {
             <a
               href="#"
               title=""
-              className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-yellow-400 focus:bg-yellow-400"
+              className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-yellow-500 focus:bg-yellow-500"
             >
               <svg
                 className="w-4 h-4"
@@ -55,7 +55,7 @@ const Footer = () => {
             <a
               href="#"
               title=""
-              className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-yellow-400 focus:bg-yellow-400"
+              className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-yellow-500 focus:bg-yellow-500"
             >
               <svg
                 className="w-4 h-4"
@@ -73,7 +73,7 @@ const Footer = () => {
             <a
               href="#"
               title=""
-              className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-yellow-400 focus:bg-yellow-400"
+              className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-yellow-500 focus:bg-yellow-500"
             >
               <svg
                 className="w-4 h-4"
@@ -100,7 +100,7 @@ const Footer = () => {
     <a
       href="#about"
       title="About Us"
-      className="flex text-base text-black transition-all duration-200 hover:text-yellow-400 focus:text-yellow-400"
+      className="flex text-base text-black transition-all duration-200 hover:text-yellow-500 focus:text-yellow-500"
     >
       About Us
     </a>
@@ -109,7 +109,7 @@ const Footer = () => {
     <a
       href="#menu"
       title="Our Menu"
-      className="flex text-base text-black transition-all duration-200 hover:text-yellow-400 focus:text-yellow-400"
+      className="flex text-base text-black transition-all duration-200 hover:text-yellow-500 focus:text-yellow-500"
     >
       Our Menu
     </a>
@@ -118,7 +118,7 @@ const Footer = () => {
     <a
       href="#order"
       title="How to Order"
-      className="flex text-base text-black transition-all duration-200 hover:text-yellow-400 focus:text-yellow-400"
+      className="flex text-base text-black transition-all duration-200 hover:text-yellow-500 focus:text-yellow-500"
     >
       How to Order
     </a>
@@ -127,7 +127,7 @@ const Footer = () => {
     <a
       href="#contact"
       title="Contact Us"
-      className="flex text-base text-black transition-all duration-200 hover:text-yellow-400 focus:text-yellow-400"
+      className="flex text-base text-black transition-all duration-200 hover:text-yellow-500 focus:text-yellow-500"
     >
       Contact Us
     </a>
@@ -144,7 +144,7 @@ const Footer = () => {
             <a
               href="#"
               title=""
-              className="flex text-base text-black transition-all duration-200 hover:text-yellow-400 focus:text-yellow-400"
+              className="flex text-base text-black transition-all duration-200 hover:text-yellow-500 focus:text-yellow-500"
             >
               {" "}
               Customer Support{" "}
@@ -154,7 +154,7 @@ const Footer = () => {
             <a
               href="#"
               title=""
-              className="flex text-base text-black transition-all duration-200 hover:text-yellow-400 focus:text-yellow-400"
+              className="flex text-base text-black transition-all duration-200 hover:text-yellow-500 focus:text-yellow-500"
             >
               {" "}
               Delivery Details{" "}
@@ -164,7 +164,7 @@ const Footer = () => {
             <a
               href="#"
               title=""
-              className="flex text-base text-black transition-all duration-200 hover:text-yellow-400 focus:text-yellow-400"
+              className="flex text-base text-black transition-all duration-200 hover:text-yellow-500 focus:text-yellow-500"
             >
               {" "}
               Terms &amp; Conditions{" "}
@@ -174,7 +174,7 @@ const Footer = () => {
             <a
               href="#"
               title=""
-              className="flex text-base text-black transition-all duration-200 hover:text-yellow-400 focus:text-yellow-400"
+              className="flex text-base text-black transition-all duration-200 hover:text-yellow-500 focus:text-yellow-500"
             >
               {" "}
               Privacy Policy{" "}
@@ -193,12 +193,12 @@ const Footer = () => {
               name="email"
               id="email"
               placeholder="Enter your email"
-              className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-yellow-400 caret-yellow-400"
+              className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-yellow-500 caret-yellow-500"
             />
           </div>
           <button
             type="submit"
-            className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-yellow-400 rounded-md hover:bg-blue-700 focus:bg-blue-700"
+            className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-yellow-500 rounded-md hover:bg-blue-700 focus:bg-blue-700"
           >
             Order Now
           </button>
