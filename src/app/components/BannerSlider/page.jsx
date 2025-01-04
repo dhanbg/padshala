@@ -18,8 +18,8 @@ const slides = [
 const page = () => {
   return (
     <>
-    <Navbar />
-    <Swiper
+      <Navbar />
+      <Swiper
         navigation={true}
         modules={[Navigation, Autoplay]}
         loop={true}
@@ -27,21 +27,20 @@ const page = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        className="banner-slider w-full"
+        className="banner-slider w-full h-screen" // Make Swiper take full width and height
       >
         {slides.map((src, index) => (
           <SwiperSlide key={index}>
-            <div className="w-full relative">
-              {/* Make image responsive */}
+            <div className="w-full h-full relative">
               <img
                 src={src}
                 alt={`Slide ${index + 1}`}
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover" // Ensure the image covers the entire slide area
               />
             </div>
           </SwiperSlide>
         ))}
-    </Swiper>
+      </Swiper>
     </>
   );
 };
